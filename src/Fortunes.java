@@ -20,7 +20,7 @@ public class Fortunes {
 
 		Random rand = new Random();
 		int r = rand.nextInt(fortunes.length);
-		System.out.println(r);
+		System.out.println(fortunes[r]);
 		
 	}
 
